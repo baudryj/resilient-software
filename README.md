@@ -1,9 +1,7 @@
 # resilient-software
 Manage multi app on single condigniter instance 
 
-********************************************************
 APP = Name + instance + controller + function + Layout
-********************************************************
 
 Page = Auth + ipasport + register + new_account + center_layout
 Data / parameters
@@ -11,11 +9,7 @@ Data / parameters
 Simplifier le déploiement/maintenance d'une application avec CI
 On part d'une base avec template (ex inspinia) + lib et on peut mutualiser
 
-
-********************************************************
-Assets
-********************************************************
-
+## Assets
 /assets/theme/inspinia3/js
 		
 /assets/js/
@@ -42,19 +36,13 @@ Assets
 	_Layouts/
 	_Apps/
 
-********************************************************
-Controller
-********************************************************
-
+## Controller
 /controller/
 	<app_name>/
 		<controller>.php
 
 
-********************************************************
-Config
-********************************************************
-
+## Config
 /config/
 	_Apps/
 		<app_name>/
@@ -63,23 +51,17 @@ Config
 	_Layouts
 		<layout_name>.php
 
-********************************************************
-Views
-********************************************************
 
+## Views
 /views/
 	_Layouts
 	_Common
 	_Components
 
-********************************************************
-Librairies
-********************************************************
 
+## Librairies
 /librairies/
 
-********************************************************
-Helper
-********************************************************
 
+## Helper
 /helper
